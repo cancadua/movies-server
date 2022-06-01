@@ -1,0 +1,6 @@
+2022-06-01 05:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFRUWFxga... (18763)"; SQL statement:
+insert into movies (content, image, title, id) values (?, ?, ?, ?) [22001-212]
+2022-06-01 05:14:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFRUWFxga... (18763)"; SQL statement:
+insert into movies (content, image, title, id) values (?, ?, ?, ?) [22001-212]

@@ -1,0 +1,3 @@
+2022-06-01 05:33:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'Jurassic World has been running with great success for more than a decade in th... (455)"; SQL statement:
+insert into movies (content, image, title, id) values (?, ?, ?, ?) [22001-212]
